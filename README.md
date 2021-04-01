@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-  Clone do GitHub
+  Clone GitHub
 </h1>
 
 ## Tecnologias aplicadas nesse projeto: 
@@ -18,11 +18,11 @@
 
 **Yarn - npm install --global yarn (instalado Globalmente)**
 
-## pacotes intalados nesse projeto:
+## Pacotes intalados nesse projeto:
 
 1. _Styled Components - yarn add styled-components_
 2. _React Dropdown - yarn add react-dropdown_
 3. _React icons - yarn add react-icons_
 
 
-🚧 **Desenrvolvido por Luís Gabriel** 🚧
+🚧 **Desenrvolvido por Luís Gabriel Marchió Batista** 🚧
