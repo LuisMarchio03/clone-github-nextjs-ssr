@@ -42,6 +42,12 @@ export const OverviewContainer = styled.section`
             display: flex;
             flex-direction: column;
             margin-bottom: 3%;
+
+            cursor: pointer;
+            
+            &:hover {
+                text-decoration: underline;
+            }
         }
         
         span.HTML {

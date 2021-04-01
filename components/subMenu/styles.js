@@ -13,11 +13,17 @@ export const SubMenuContainer = styled.header`
         display: inline-block;
 
       li {
+        display: inline-block;
+        
+        margin-right: 30px;
+
+        font-size: 1rem;
+
+        a.ative-menu {
+          color: tomato;
+        }
+
         a {
-            margin-right: 30px;
-
-            font-size: 1rem;
-
             &:hover {
                 padding-bottom: 8px;
                 border-bottom: 2px solid red;
@@ -30,7 +36,7 @@ export const SubMenuContainer = styled.header`
               border-radius: 50%;
               background: #ccc;
             }
-        }
+          }
       }
     }
 

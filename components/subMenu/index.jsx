@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 import Link from 'next/link';
 
@@ -15,7 +15,11 @@ function SubMenu() {
                 <ul>
                     <li>
                         <Link href="/"><a><BsBook /> Overview</a></Link>
+                    </li>
+                    <li>
                         <Link href="/repositories"><a><RiGitRepositoryLine /> Repositories <span>7</span></a></Link>
+                    </li>
+                    <li>
                         <Link href="/projects"><a><GoProject /> Projects</a></Link>
                     </li>
                 </ul>
