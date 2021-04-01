@@ -28,6 +28,12 @@ export const ProfileContainer = styled.aside`
     span {
         font-size: 18px;
         font-weight: 300;
+
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: -5px;
     }
 
     button {

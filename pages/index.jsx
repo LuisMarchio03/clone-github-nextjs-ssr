@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import SubMenu from '../components/subMenu';
 import Profile from '../components/Profile';
 
-export default function Home() {
+export default function Home({ respositories }) {
   return (
     <>
       <Head>
@@ -22,26 +22,24 @@ export default function Home() {
         <OverviewContainer>
             <h1>Popular repositories</h1>
             <div className="wraper">
-                <div className="repos">
-                    <strong>Repositorio 01</strong>
-                    <span>Html</span>
+              {respositories.map(repo =>(
+                <div className="repos" key={repo.id}>
+                  <strong>{repo.name}</strong>
+                  <p>{repo.description}</p>
+                  <span className={repo.language}>{repo.language}</span>
                 </div>
-                <div className="repos">
-                    <strong>Repositorio 01</strong>
-                    <span>Html</span>
-                </div>
-                <div className="repos">
-                    <strong>Repositorio 01</strong>
-                    <span>Html</span>
-                </div>
-                <div className="repos">
-                    <strong>Repositorio 01</strong>
-                    <span>Html</span>
-                </div>
+              ))}
             </div>
         </OverviewContainer>
       </MainContainer>
 
     </>
   )
+}
+
+Home.getInitialProps = async () => {
+    const repos = await fetch('https://api.github.com/users/LuisMarchio03/repos');
+    const respositories = await repos.json();
+
+    return { respositories };
 }

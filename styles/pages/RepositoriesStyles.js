@@ -61,5 +61,9 @@ export const RepositoriesContainer = styled.div`
          span.CSS {
             color: purple;
         }
+
+        span.Typescript {
+            color: blue;
+        }
     }
 `;

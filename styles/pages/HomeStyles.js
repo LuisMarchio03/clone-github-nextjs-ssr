@@ -41,11 +41,23 @@ export const OverviewContainer = styled.section`
         strong {
             display: flex;
             flex-direction: column;
-            margin-bottom: 10%;
+            margin-bottom: 3%;
         }
         
-        span {
-            
+        span.HTML {
+            color: orange;
+        }
+
+         span.JavaScript {
+            color: yellowgreen;
+        }
+
+         span.CSS {
+            color: purple;
+        }
+
+        span.Typescript {
+            color: blue;
         }
     }
 
