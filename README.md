@@ -26,4 +26,12 @@
 
 
 
+## 🎇 Minhas redes sociais:
+
+**Instagram: https://www.instagram.com/luis_marchio/**
+
+**Linkedin: https://www.linkedin.com/in/lu%C3%ADs-gabriel-marchi%C3%B3-batista-a0aa64206/**
+
+
+
 💻 **Desenrvolvido por Luís Gabriel Marchió Batista** 💻
