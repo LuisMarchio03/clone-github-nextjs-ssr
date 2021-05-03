@@ -34,4 +34,4 @@
 
 
 
-💻 **Desenrvolvido por Luís Gabriel Marchió Batista** 💻
+💻 **Desenvolvido por Luís Gabriel Marchió Batista** 💻
